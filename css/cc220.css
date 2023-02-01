@@ -383,7 +383,7 @@ hr {
 
 /*TEI*/
 #TEI, #parallel, #outline {
-  padding: 10px 50px 10px 50px;
+  padding: 2% 6%;
   width: calc(100% - 100px);
   background-color:  white;
   position: relative;
