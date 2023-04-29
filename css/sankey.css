@@ -1,0 +1,26 @@
+      body {
+        padding: 10px;
+        min-width: 600px;
+        max-width: 1200px;
+        margin: auto;
+      }
+	  svg{
+		padding: 10px;
+	  }
+      #chart {
+        height: 500px;
+        font: 13px sans-serif;
+      }
+      .node rect {
+        fill-opacity: .9;
+        shape-rendering: crispEdges;
+        stroke-width: 0;
+      }
+      .node text {
+        text-shadow: 0 1px 0 #fff;
+      }
+      .link {
+        fill: none;
+        stroke: #000;
+        stroke-opacity: .2;
+      }
