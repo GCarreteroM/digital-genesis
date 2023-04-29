@@ -9,7 +9,7 @@
             'verb': 				'#367d85',
             'fallback':            '#9f9fa3'
           };
-      d3.json("/includes/bible_data_v2.json", function(error, json) {
+      d3.json("/digital-genesis/includes/bible_data_v2.json", function(error, json) {
         var chart = d3.select("#chart").append("svg").chart("Sankey.Path");
         chart
           .name(label)
