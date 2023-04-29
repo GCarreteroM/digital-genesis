@@ -1,0 +1,699 @@
+{
+   "nodes" : [
+	  {
+		"name": "",
+		"id": "final_score"
+	  },
+	  {
+		"name": "abel",
+		"id": "character"
+	  },
+	  {
+		"name": "adah",
+		"id": "character"
+	  },
+	  {
+		"name": "adah,zillah",
+		"id": "character"
+	  },
+	  {
+		"name": "adam",
+		"id": "character"
+	  },
+	  {
+		"name": "adam and eve",
+		"id": "character"
+	  },
+	  {
+		"name": "adam,eve",
+		"id": "character"
+	  },
+	  {
+		"name": "cain",
+		"id": "character"
+	  },
+	  {
+		"name": "cain's face",
+		"id": "character"
+	  },
+	  {
+		"name": "cain's wife",
+		"id": "character"
+	  },
+	  {
+		"name": "cherubim",
+		"id": "character"
+	  },
+	  {
+		"name": "elohim",
+		"id": "character"
+	  },
+	  {
+		"name": "eve",
+		"id": "character"
+	  },
+	  {
+		"name": "jabal's lineage",
+		"id": "character"
+	  },
+	  {
+		"name": "jubal's lineage",
+		"id": "character"
+	  },
+	  {
+		"name": "lamech",
+		"id": "character"
+	  },
+	  {
+		"name": "serpent",
+		"id": "character"
+	  },
+	  {
+		"name": "seth",
+		"id": "character"
+	  },
+	  {
+		"name": "seth's lineage",
+		"id": "character"
+	  },
+	  {
+		"name": "tubal-cain",
+		"id": "character"
+	  },
+	  {
+		"name": "zillah",
+		"id": "character"
+	  },
+  {
+    "name": "anger",
+    "id": "verb"
+  },
+  {
+    "name": "subtlety",
+    "id": "verb"
+  },
+  {
+    "name": "to appoint",
+    "id": "verb"
+  },
+  {
+    "name": "to bear",
+    "id": "verb"
+  },
+  {
+    "name": "to beguile",
+    "id": "verb"
+  },
+  {
+    "name": "to bring",
+    "id": "verb"
+  },
+  {
+    "name": "to build",
+    "id": "verb"
+  },
+  {
+    "name": "to call",
+    "id": "verb"
+  },
+  {
+    "name": "to command",
+    "id": "verb"
+  },
+  {
+    "name": "to conceive",
+    "id": "verb"
+  },
+  {
+    "name": "to drive",
+    "id": "verb"
+  },
+  {
+    "name": "to dwell",
+    "id": "verb"
+  },
+  {
+    "name": "to eat",
+    "id": "verb"
+  },
+  {
+    "name": "to fall",
+    "id": "verb"
+  },
+  {
+    "name": "to forge",
+    "id": "verb"
+  },
+  {
+    "name": "to get",
+    "id": "verb"
+  },
+  {
+    "name": "to give",
+    "id": "verb"
+  },
+  {
+    "name": "to harken/hear",
+    "id": "verb"
+  },
+  {
+    "name": "to have",
+    "id": "verb"
+  },
+  {
+    "name": "to have(respect)",
+    "id": "verb"
+  },
+  {
+    "name": "to hear",
+    "id": "verb"
+  },
+  {
+    "name": "to hide",
+    "id": "verb"
+  },
+  {
+    "name": "to keep/guard",
+    "id": "verb"
+  },
+  {
+    "name": "to know",
+    "id": "verb"
+  },
+  {
+    "name": "to make",
+    "id": "verb"
+  },
+  {
+    "name": "to manage",
+    "id": "verb"
+  },
+  {
+    "name": "to move",
+    "id": "verb"
+  },
+  {
+    "name": "to open",
+    "id": "verb"
+  },
+  {
+    "name": "to place",
+    "id": "verb"
+  },
+  {
+    "name": "to rise",
+    "id": "verb"
+  },
+  {
+    "name": "to say",
+    "id": "verb"
+  },
+  {
+    "name": "to see",
+    "id": "verb"
+  },
+  {
+    "name": "to send",
+    "id": "verb"
+  },
+  {
+    "name": "to slay",
+    "id": "verb"
+  },
+  {
+    "name": "to sow",
+    "id": "verb"
+  },
+  {
+    "name": "to speak",
+    "id": "verb"
+  },
+  {
+    "name": "to take",
+    "id": "verb"
+  },
+  {
+    "name": "to till",
+    "id": "verb"
+  },
+  {
+    "name": "to walk",
+    "id": "verb"
+  },
+  {
+    "name": "to wander",
+    "id": "verb"
+  },
+  {
+    "name": "tp clothe",
+    "id": "verb"
+  }
+	],
+   "links" : [
+  {
+    "source": 0,
+    "value": 0.096,
+    "target": 1
+  },
+  {
+    "source": 0,
+    "value": 0.096,
+    "target": 2
+  },
+  {
+    "source": 0,
+    "value": 0.192,
+    "target": 3
+  },
+  {
+    "source": 0,
+    "value": 0.768,
+    "target": 4
+  },
+  {
+    "source": 0,
+    "value": 0.192,
+    "target": 5
+  },
+  {
+    "source": 0,
+    "value": 0.384,
+    "target": 6
+  },
+  {
+    "source": 0,
+    "value": 1.632,
+    "target": 7
+  },
+  {
+    "source": 0,
+    "value": 0.096,
+    "target": 8
+  },
+  {
+    "source": 0,
+    "value": 0.192,
+    "target": 9
+  },
+  {
+    "source": 0,
+    "value": 0.096,
+    "target": 10
+  },
+  {
+    "source": 0,
+    "value": 2.688,
+    "target": 11
+  },
+  {
+    "source": 0,
+    "value": 1.44,
+    "target": 12
+  },
+  {
+    "source": 0,
+    "value": 0.192,
+    "target": 13
+  },
+  {
+    "source": 0,
+    "value": 0.096,
+    "target": 14
+  },
+  {
+    "source": 0,
+    "value": 0.288,
+    "target": 15
+  },
+  {
+    "source": 0,
+    "value": 0.384,
+    "target": 16
+  },
+  {
+    "source": 0,
+    "value": 0.096,
+    "target": 17
+  },
+  {
+    "source": 0,
+    "value": 0.096,
+    "target": 18
+  },
+  {
+    "source": 0,
+    "value": 0.096,
+    "target": 19
+  },
+  {
+    "source": 0,
+    "value": 0.096,
+    "target": 20
+  },
+  {
+    "source": 1,
+    "value": 0.096,
+    "target": 26
+  },
+  {
+    "source": 2,
+    "value": 0.096,
+    "target": 24
+  },
+  {
+    "source": 3,
+    "value": 0.096,
+    "target": 38
+  },
+  {
+    "source": 3,
+    "value": 0.096,
+    "target": 41
+  },
+  {
+    "source": 4,
+    "value": 0.096,
+    "target": 28
+  },
+  {
+    "source": 4,
+    "value": 0.192,
+    "target": 33
+  },
+  {
+    "source": 4,
+    "value": 0.096,
+    "target": 41
+  },
+  {
+    "source": 4,
+    "value": 0.192,
+    "target": 44
+  },
+  {
+    "source": 4,
+    "value": 0.192,
+    "target": 51
+  },
+  {
+    "source": 5,
+    "value": 0.096,
+    "target": 42
+  },
+  {
+    "source": 5,
+    "value": 0.096,
+    "target": 44
+  },
+  {
+    "source": 6,
+    "value": 0.096,
+    "target": 41
+  },
+  {
+    "source": 6,
+    "value": 0.096,
+    "target": 45
+  },
+  {
+    "source": 6,
+    "value": 0.096,
+    "target": 48
+  },
+  {
+    "source": 6,
+    "value": 0.096,
+    "target": 55
+  },
+  {
+    "source": 7,
+    "value": 0.096,
+    "target": 21
+  },
+  {
+    "source": 7,
+    "value": 0.096,
+    "target": 24
+  },
+  {
+    "source": 7,
+    "value": 0.096,
+    "target": 26
+  },
+  {
+    "source": 7,
+    "value": 0.096,
+    "target": 27
+  },
+  {
+    "source": 7,
+    "value": 0.096,
+    "target": 28
+  },
+  {
+    "source": 7,
+    "value": 0.096,
+    "target": 32
+  },
+  {
+    "source": 7,
+    "value": 0.192,
+    "target": 44
+  },
+  {
+    "source": 7,
+    "value": 0.096,
+    "target": 47
+  },
+  {
+    "source": 7,
+    "value": 0.096,
+    "target": 50
+  },
+  {
+    "source": 7,
+    "value": 0.192,
+    "target": 51
+  },
+  {
+    "source": 7,
+    "value": 0.192,
+    "target": 54
+  },
+  {
+    "source": 7,
+    "value": 0.096,
+    "target": 56
+  },
+  {
+    "source": 7,
+    "value": 0.096,
+    "target": 58
+  },
+  {
+    "source": 7,
+    "value": 0.096,
+    "target": 60
+  },
+  {
+    "source": 8,
+    "value": 0.096,
+    "target": 34
+  },
+  {
+    "source": 9,
+    "value": 0.096,
+    "target": 24
+  },
+  {
+    "source": 9,
+    "value": 0.096,
+    "target": 30
+  },
+  {
+    "source": 10,
+    "value": 0.096,
+    "target": 43
+  },
+  {
+    "source": 11,
+    "value": 0.096,
+    "target": 23
+  },
+  {
+    "source": 11,
+    "value": 0.096,
+    "target": 28
+  },
+  {
+    "source": 11,
+    "value": 0.096,
+    "target": 29
+  },
+  {
+    "source": 11,
+    "value": 0.192,
+    "target": 31
+  },
+  {
+    "source": 11,
+    "value": 0.096,
+    "target": 37
+  },
+  {
+    "source": 11,
+    "value": 0.096,
+    "target": 39
+  },
+  {
+    "source": 11,
+    "value": 0.096,
+    "target": 40
+  },
+  {
+    "source": 11,
+    "value": 0.096,
+    "target": 44
+  },
+  {
+    "source": 11,
+    "value": 0.192,
+    "target": 45
+  },
+  {
+    "source": 11,
+    "value": 0.096,
+    "target": 49
+  },
+  {
+    "source": 11,
+    "value": 1.248,
+    "target": 51
+  },
+  {
+    "source": 11,
+    "value": 0.096,
+    "target": 53
+  },
+  {
+    "source": 11,
+    "value": 0.096,
+    "target": 59
+  },
+  {
+    "source": 11,
+    "value": 0.096,
+    "target": 61
+  },
+  {
+    "source": 12,
+    "value": 0.288,
+    "target": 24
+  },
+  {
+    "source": 12,
+    "value": 0.096,
+    "target": 28
+  },
+  {
+    "source": 12,
+    "value": 0.096,
+    "target": 30
+  },
+  {
+    "source": 12,
+    "value": 0.192,
+    "target": 33
+  },
+  {
+    "source": 12,
+    "value": 0.096,
+    "target": 36
+  },
+  {
+    "source": 12,
+    "value": 0.192,
+    "target": 37
+  },
+  {
+    "source": 12,
+    "value": 0.288,
+    "target": 51
+  },
+  {
+    "source": 12,
+    "value": 0.096,
+    "target": 52
+  },
+  {
+    "source": 12,
+    "value": 0.096,
+    "target": 57
+  },
+  {
+    "source": 13,
+    "value": 0.096,
+    "target": 32
+  },
+  {
+    "source": 13,
+    "value": 0.096,
+    "target": 39
+  },
+  {
+    "source": 14,
+    "value": 0.096,
+    "target": 46
+  },
+  {
+    "source": 15,
+    "value": 0.096,
+    "target": 51
+  },
+  {
+    "source": 15,
+    "value": 0.096,
+    "target": 54
+  },
+  {
+    "source": 15,
+    "value": 0.096,
+    "target": 57
+  },
+  {
+    "source": 16,
+    "value": 0.096,
+    "target": 22
+  },
+  {
+    "source": 16,
+    "value": 0.096,
+    "target": 25
+  },
+  {
+    "source": 16,
+    "value": 0.192,
+    "target": 56
+  },
+  {
+    "source": 17,
+    "value": 0.096,
+    "target": 28
+  },
+  {
+    "source": 18,
+    "value": 0.096,
+    "target": 28
+  },
+  {
+    "source": 19,
+    "value": 0.096,
+    "target": 35
+  },
+  {
+    "source": 20,
+    "value": 0.096,
+    "target": 24
+  }
+]
+}
