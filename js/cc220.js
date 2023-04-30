@@ -48,7 +48,7 @@ $(document).on("click", ".nav-item", function() {
 		} else {
 			$("#page").hide();
 			$("#text").show();
-			
+		
 		}
 	
 });
