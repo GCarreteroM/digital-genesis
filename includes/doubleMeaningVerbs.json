@@ -1,0 +1,67 @@
+{
+ "name": "Genesis",
+ "children": [
+  {
+   "name": "Source P",
+   "children": [
+    {
+     "name": "To see",
+     "children": [
+      {"name": "Understanding", "size": 60000}
+     ]
+    },
+	{
+     "name": "To go",
+     "children": [
+      {"name": "Movement", "size": 10000}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Source J",
+   "children": [{
+     "name": "To know",
+     "children": [
+      {"name": "Intelligence", "size": 40000},
+      {"name": "Sexuality", "size": 30000}
+     ]
+    },
+	{
+     "name": "To see",
+     "children": [
+      {"name": "Understanding", "size": 10000}
+     ]
+    },
+	{
+     "name": "To go",
+     "children": [
+      {"name": "Instruction", "size": 20000}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Source E",
+   "children": [{
+     "name": "To know",
+     "children": [
+      {"name": "Intelligence", "size": 20000}
+     ]
+    },
+	{
+     "name": "To see",
+     "children": [
+      {"name": "Vision", "size": 10000}
+     ]
+    },
+	{
+     "name": "To go",
+     "children": [
+      {"name": "Movement", "size": 40000}
+     ]
+    }
+   ]
+  }
+ ]
+}
