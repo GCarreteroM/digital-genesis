@@ -43,7 +43,7 @@ $(document).on("click", ".nav-item", function() {
 	$('.nav-item').removeClass('active');
 	$(this).addClass('active');
 	var section = $(this).attr('data-section');
-	if (["about","bibliography", "introduction", "visualizations"].indexOf(section) >= 0){
+	if (["about","bibliography", "introduction", "visualizations", "wilson-doubleMeaningVerbs"].indexOf(section) >= 0){
 			showPage(section);
 		} else {
 			$("#page").hide();
