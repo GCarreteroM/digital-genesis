@@ -9,7 +9,6 @@ var svg = d3.select("svg"),
     diameter = +svg.attr("width"),
     g = svg.append("g").attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
 
-
 var pack = d3.pack()
     .size([diameter - margin, diameter - margin])
     .padding(2);
@@ -21,8 +20,6 @@ d3.json("doubleMeaningVerbs.json", function(error, root) {
       .sum(function(d) { return d.size; })
       .sort(function(a, b) { return b.value - a.value; });
 	  
-
-
   var focus = root,
       nodes = pack(root).descendants(),
       view;
