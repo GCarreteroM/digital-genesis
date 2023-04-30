@@ -1,0 +1,76 @@
+  <div id="chart"></div>
+
+  <script>
+    const data = {
+      name: 'Genesis',
+      color: 'magenta',
+      children: [{
+        name: 'Chapter 1',
+        color: '#979899',
+        children: [{
+          name: 'Curses',
+          color: 'red',
+          children: [{
+            name: 'Moses',
+            color: '#ffaa00',
+            size: 1
+          }, {
+            name: 'Adam and Eve are exiled',
+            color: '#ffffaa',
+            size: 1
+          }, {
+            name: 'Adam',
+            color: '#ffaaaa',
+            size: 1
+          }]
+        }, {
+          name: 'Blessings',
+          color: 'green',
+          children: [{
+            name: 'Moses',
+            color: '#ffaa00',
+            size: 1
+          }, {
+            name: 'Isaac',
+            color: '#ffffaa',
+            size: 1
+          }]
+        }]
+      },{
+        name: 'Chapter 2',
+        color: '828385',
+        children: [{
+          name: 'Curses',
+          color: 'red',
+          children: [{
+            name: 'Moses',
+            color: '#ffaa00',
+            size: 1
+          }, {
+            name: 'Isaac',
+            color: '#ffffaa',
+            size: 1
+          }]
+        }, {
+          name: 'Blessings',
+          color: 'green',
+          children: [{
+            name: 'Abel',
+            color: '#bbaa00',
+            size: 1
+          }, {
+            name: 'Cain',
+            color: '#aaffaa',
+            size: 1
+          }]
+        }]
+      }]
+    };
+
+    Sunburst()
+      .data(data)
+      .size('size')
+      .color('color')
+      .radiusScaleExponent(1)
+      (document.getElementById('chart'));
+  </script>
