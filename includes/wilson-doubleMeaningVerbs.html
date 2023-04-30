@@ -9,10 +9,6 @@ var svg = d3.select("svg"),
     diameter = +svg.attr("width"),
     g = svg.append("g").attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
 
-var color = d3.scaleLinear()
-    .domain([-1, 5])
-    .range(["hsl(152,80%,80%)", "hsl(228,30%,40%)"])
-    .interpolate(d3.interpolateHcl);
 
 var pack = d3.pack()
     .size([diameter - margin, diameter - margin])
@@ -35,7 +31,7 @@ d3.json("doubleMeaningVerbs.json", function(error, root) {
     .data(nodes)
     .enter().append("circle")
       .attr("class", function(d) { return d.parent ? d.children ? "node-zoomableCircles" : "node-zoomableCircles node--leaf-zoomableCircles " + d.data.name : "node-zoomableCircles node--root-zoomableCircles " ; })
-      .style("fill", function(d) { return d.children ? color(d.depth) : null; })
+      .style("fill", function(d) { return d.children ? "blue" : null; })
       .on("click", function(d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); });
 
   var text = g.selectAll("text")
@@ -49,7 +45,7 @@ d3.json("doubleMeaningVerbs.json", function(error, root) {
   var node = g.selectAll("circle,text");
 
   svg
-      .style("background", color(-1))
+      .style("background", "white")
       .on("click", function() { zoom(root); });
 
   zoomTo([root.x, root.y, root.r * 2 + margin]);
